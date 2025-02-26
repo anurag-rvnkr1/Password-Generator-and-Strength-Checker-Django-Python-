@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="hero-content text-center">
+        <h1 class="display-4 text-light fw-bold">Welcome to the Future of Password Security</h1>
+        <p class="lead text-light">Secure your online presence with advanced tools for checking and generating strong passwords.</p>
+        <a href="{% url 'check_password' %}" class="btn btn-primary btn-lg mx-2">Check Password Strength</a>
+        <a href="{% url 'generate_password' %}" class="btn btn-success btn-lg mx-2">Generate a Strong Password</a>
+    </div>
+</div>
+
+<div class="features-section text-center py-5">
+    <div class="container">
+        <h2 class="mb-4">Why Choose Our Password Manager?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h3>Enhanced Security</h3>
+                    <p>We use industry-standard encryption to ensure your passwords are always safe and secure.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h3>Easy-to-Use Interface</h3>
+                    <p>Our intuitive interface makes password management simple and efficient.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h3>Strong Password Generation</h3>
+                    <p>Generate random, secure passwords with customizable parameters such as length, numbers, and special characters.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cta-section text-center bg-dark text-light py-5">
+    <h2>Ready to Secure Your Accounts?</h2>
+    <p>Start using our advanced password manager today!</p>
+    <a href="{% url 'check_password' %}" class="btn btn-warning btn-lg">Start Now</a>
+</div>
+{% endblock %}
