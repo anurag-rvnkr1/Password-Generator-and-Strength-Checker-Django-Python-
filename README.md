@@ -22,7 +22,8 @@ A Django-powered web application that evaluates password strength using industry
     cd password-strength-analyzer
 ### 2. Set Up a Virtual Environment
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    On Mac:     source venv/bin/activate 
+    On Windows: venv\Scripts\activate
 ### 3. Install Dependencies
     pip install -r requirements.txt
 ### 4. Apply Database Migrations
