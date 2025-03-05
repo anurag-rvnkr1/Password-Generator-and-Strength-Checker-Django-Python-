@@ -18,7 +18,7 @@ A Django-powered web application that evaluates password strength using industry
 
 ## 🏗️ Installation & Setup
 ### 1. Clone the Repository
-    git clone https://github.com/your-username/password-strength-analyzer.git
+    git clone https://github.com/anurag-rvnkr1/Password-Generator-and-Strength-Checker-Django-Python-.git
     cd password-strength-analyzer
 ### 2. Set Up a Virtual Environment
     python -m venv venv
