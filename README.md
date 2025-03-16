@@ -50,5 +50,4 @@ A Django-powered web application that evaluates password strength using industry
 ##  🤝 Contributing
 We welcome contributions! Please fork the repository, create a feature branch, and submit a pull request.
 
-## 📜 License
-This project is licensed under the MIT License – feel free to modify and enhance it.
+
