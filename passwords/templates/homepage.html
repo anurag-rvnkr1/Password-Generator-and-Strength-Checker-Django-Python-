@@ -3,7 +3,9 @@
 {% block content %}
 <div class="hero-section">
     <div class="hero-content text-center">
-        <h1 class="display-4 text-light fw-bold">Welcome to the Future of Password Security</h1>
+        <h1 style="font-size: 3rem; color: #fc3a3a; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); text-align: center;">
+            Welcome to the Future of Password Analysis
+        </h1>
         <p class="lead text-light">Secure your online presence with advanced tools for checking and generating strong passwords.</p>
         <a href="{% url 'check_password' %}" class="btn btn-primary btn-lg mx-2">Check Password Strength</a>
         <a href="{% url 'generate_password' %}" class="btn btn-success btn-lg mx-2">Generate a Strong Password</a>
@@ -38,7 +40,8 @@
 
 <div class="cta-section text-center bg-dark text-light py-5">
     <h2>Ready to Secure Your Accounts?</h2>
-    <p>Start using our advanced password manager today!</p>
+    <h5>Check how strong is your password </h5>
+    <p>Start using our advanced password strength checker today!</p>
     <a href="{% url 'check_password' %}" class="btn btn-warning btn-lg">Start Now</a>
 </div>
 {% endblock %}
